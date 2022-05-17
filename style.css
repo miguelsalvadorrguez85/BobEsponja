@@ -1,0 +1,106 @@
+.head{
+    height: 550px;
+    width: 450px;
+    background-color: yellow;
+    border: 3px solid black;
+    margin: auto;
+
+    
+    
+}
+
+.trunk{
+    height: 150px;
+    width: 450px;
+    background-color: white;
+    border: 3px solid black;
+    margin: auto;
+
+}
+
+.eye{
+    height: 135px;
+    width: 135px;
+    background-color: white;
+    border: 3px solid black;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    display:inline-flex;
+    align-items: center;
+}
+
+.iris{
+    height: 70px;
+    width: 70px;
+    background-color: #33adff;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.pupil{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    
+
+}
+.eyelashes_block{
+    display:inline-flex;
+    align-items: space-between;
+}
+
+.eyelash{
+    height: 40px;
+    width: 4px;
+    margin:5px ;
+    background-color: black;
+    position: absolute;
+
+
+}
+
+#eye_left{
+    left: 100px;  
+}
+
+#eye_right{
+    left: 80px;
+}
+
+#eyelashes_right{
+    left: 180px;
+}
+
+.troussers{
+    height: 75px;
+    width: 450px;
+    background-color: saddlebrown;
+    border-bottom: 3px solid black;
+    margin: auto;
+    display: flex;
+
+}
+
+/*.belt{
+    display: inline;
+}*/
+
+.line{
+    height: 20px;
+    width: 70px;
+    background-color: black;
+    margin: 20px;
+    display: inline-block;
+
+}
